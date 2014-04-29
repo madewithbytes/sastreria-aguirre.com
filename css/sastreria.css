@@ -46,3 +46,26 @@
 .navbar-brand {
   font-size: 17px;
 }
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+  .navbar-brand {
+    font-size: 12px;
+  }
+
+  .site-logo {
+    font-size: 40px;
+  }
+
+  #servicios {
+    padding-right: 0;
+    background: none;
+  }
+
+  #nosotros {
+    padding-right: 0;
+  }
+
+}
